@@ -1,0 +1,6 @@
+from python import Python
+
+def main():
+    var sys = Python.import_module("sys")
+    for p in sys.path: 
+        print(p)
